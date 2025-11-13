@@ -20,4 +20,3 @@ API:
 - POST /api/v1/data/download
 - POST /api/v1/backtest/submit
 - ws  /ws/{task_id}
-谢谢
