@@ -1,0 +1,807 @@
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145345114112) started
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145361903616) started
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145378693120) started
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145395482624) started
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - ERROR - Failed to load pending tasks: TaskError.__init__() got an unexpected keyword argument 'error_code'
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session recreated
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - ERROR - Failed to save task TEST_1762929571211 to database: (sqlite3.OperationalError) no such table: task
+[SQL: SELECT task.id AS task_id, task.task_type AS task_task_type, task.priority AS task_priority, task.status AS task_status, task.progress AS task_progress, task.parameters AS task_parameters, task.result AS task_result, task.error_message AS task_error_message, task.created_at AS task_created_at, task.updated_at AS task_updated_at, task.started_at AS task_started_at, task.completed_at AS task_completed_at 
+FROM task 
+WHERE task.id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('TEST_1762929571211', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Task TEST_1762929571211 added to queue with priority HIGH
+2025-11-12 14:39:31 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker task-worker-0 processing task TEST_1762929571211
+2025-11-12 14:39:33 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Task TEST_1762929571211 completed with status: success
+2025-11-12 14:39:33 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker task-worker-0 completed task TEST_1762929571211, success=True
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145392533504) started
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145409323008) started
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145426112512) started
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145442902016) started
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:MainThread] - ERROR - Failed to save task TEST_1762929765754 to database: 'fail_count' is an invalid keyword argument for Task
+2025-11-12 14:42:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Task TEST_1762929765754 added to queue with priority HIGH
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145346146304) started
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145362935808) started
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145379725312) started
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145396514816) started
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-12 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145394163712) started
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145410953216) started
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145427742720) started
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145444532224) started
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-12 14:51:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145364287488) started
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145381076992) started
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145397866496) started
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145414656000) started
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-12 14:52:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 10:00:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 10:00:15 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145480347648) started
+2025-11-13 10:00:15 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145497137152) started
+2025-11-13 10:00:15 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145513926656) started
+2025-11-13 10:00:15 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145530716160) started
+2025-11-13 10:00:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 10:00:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 10:00:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145343860736) started
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145360650240) started
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145377439744) started
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145394229248) started
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:41:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145326706688) started
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145343496192) started
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145360285696) started
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145377075200) started
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:42:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145490542592) started
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145507332096) started
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145524121600) started
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145540911104) started
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:43:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145438658560) started
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145455448064) started
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145472237568) started
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145489027072) started
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:43:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145523118080) started
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145539907584) started
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145556697088) started
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145573486592) started
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:44:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145498480640) started
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145515270144) started
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145532059648) started
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145548849152) started
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:45:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:51:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:51:59 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145325424640) started
+2025-11-13 11:52:00 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145342214144) started
+2025-11-13 11:52:00 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145359003648) started
+2025-11-13 11:52:00 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145375793152) started
+2025-11-13 11:52:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:52:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:52:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145379356672) started
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145396146176) started
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145412935680) started
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145429725184) started
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 11:57:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145559121920) started
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145575911424) started
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145592700928) started
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145609490432) started
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:01:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145396310016) started
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145413099520) started
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145429889024) started
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145446678528) started
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:02:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145497604096) started
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145514393600) started
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145531183104) started
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145547972608) started
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:02:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145456553984) started
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145473343488) started
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145490132992) started
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145506922496) started
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:03:18 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145430233088) started
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145447022592) started
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145463812096) started
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145480601600) started
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:03:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145535987712) started
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145552777216) started
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145569566720) started
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145586356224) started
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:04:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145376120832) started
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145392910336) started
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145409699840) started
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145426489344) started
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:04:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145476165632) started
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145492955136) started
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145509744640) started
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145526534144) started
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:23:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145446653952) started
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145463443456) started
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145480232960) started
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145497022464) started
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:23:42 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145379590144) started
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145396379648) started
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145413169152) started
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145429958656) started
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:27:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145583472640) started
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145600262144) started
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145617051648) started
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145633841152) started
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:28:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145362235392) started
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145379024896) started
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145395814400) started
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145412603904) started
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:29:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145473245184) started
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145490034688) started
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145506824192) started
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145523613696) started
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:29:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145344692224) started
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145361481728) started
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145378271232) started
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145395060736) started
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:29:49 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145443651584) started
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145460441088) started
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145477230592) started
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145494020096) started
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:30:15 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145490817024) started
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145507606528) started
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145524396032) started
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145541185536) started
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:30:25 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145364164608) started
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145380954112) started
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145397743616) started
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145414533120) started
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:36:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145483665408) started
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145500454912) started
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145517244416) started
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145534033920) started
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 12:40:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145506320384) started
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145523109888) started
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145539899392) started
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145556688896) started
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:02:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145435934720) started
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145452724224) started
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145469513728) started
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145486303232) started
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:06:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145422290944) started
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145439080448) started
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145455869952) started
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145472659456) started
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:08:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145480118272) started
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145496907776) started
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145513697280) started
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145530486784) started
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:11:31 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145494638592) started
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145511428096) started
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145528217600) started
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145545007104) started
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:18:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145421320192) started
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145438109696) started
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145454899200) started
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145471688704) started
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:21:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145352691712) started
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145369481216) started
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145386270720) started
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145403060224) started
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:23:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145342697472) started
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145359486976) started
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145376276480) started
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145393065984) started
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:24:10 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145572962304) started
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145589751808) started
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145606541312) started
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145623330816) started
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:24:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145482797056) started
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145499586560) started
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145516376064) started
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145533165568) started
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:27:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145462878208) started
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145479667712) started
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145496457216) started
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145513246720) started
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 13:43:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145381146624) started
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145397936128) started
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145414725632) started
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145431515136) started
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:13:33 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145335840768) started
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145352630272) started
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145369419776) started
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145386209280) started
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:13:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145374392320) started
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145391181824) started
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145407971328) started
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145424760832) started
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:13:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145434357760) started
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145451147264) started
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145467936768) started
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145484726272) started
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:14:04 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145361035264) started
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145377824768) started
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145394614272) started
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145411403776) started
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:14:14 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145386733568) started
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145403523072) started
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145420312576) started
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145437102080) started
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:14:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145483911168) started
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145500700672) started
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145517490176) started
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145534279680) started
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:18:02 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145364729856) started
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145381519360) started
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145398308864) started
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145415098368) started
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:21:57 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:22:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:22:51 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145349627904) started
+2025-11-13 14:22:51 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145366417408) started
+2025-11-13 14:22:51 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145383206912) started
+2025-11-13 14:22:51 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145399996416) started
+2025-11-13 14:22:51 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:22:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:22:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145547784192) started
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145564573696) started
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145581363200) started
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145598152704) started
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:23:03 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145579134976) started
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145595924480) started
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145612713984) started
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145629503488) started
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:25:06 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145465319424) started
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145482108928) started
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145498898432) started
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145515687936) started
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:27:26 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:27:35 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:27:35 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145526300672) started
+2025-11-13 14:27:35 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145543090176) started
+2025-11-13 14:27:35 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145559879680) started
+2025-11-13 14:27:35 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145576669184) started
+2025-11-13 14:27:35 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:27:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:27:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145498599424) started
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145515388928) started
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145532178432) started
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145548967936) started
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:28:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145545543680) started
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145562333184) started
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145579122688) started
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145595912192) started
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:29:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145345179648) started
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145361969152) started
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145378758656) started
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145395548160) started
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:30:39 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145355628544) started
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145389207552) started
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145372418048) started
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145405997056) started
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:30:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145531510784) started
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145548300288) started
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145565089792) started
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145581879296) started
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:32:01 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145386905600) started
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145403695104) started
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145420484608) started
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145437274112) started
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:33:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145404977152) started
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145421766656) started
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145438556160) started
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145455345664) started
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:33:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145320902656) started
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145337692160) started
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145354481664) started
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145371271168) started
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:37:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145473691648) started
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145490481152) started
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145507270656) started
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145524060160) started
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:39:12 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145547567104) started
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145564356608) started
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145581146112) started
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145597935616) started
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:41:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145370542080) started
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145387331584) started
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145404121088) started
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145420910592) started
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:41:11 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145524998144) started
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145541787648) started
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145558577152) started
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145575366656) started
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:43:30 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145566871552) started
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145600450560) started
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145583661056) started
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145617240064) started
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:43:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145331527680) started
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145348317184) started
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145365106688) started
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145381896192) started
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:45:43 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145570140160) started
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145603719168) started
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145586929664) started
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145620508672) started
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:45:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145576595456) started
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145593384960) started
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145610174464) started
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145626963968) started
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:47:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145486651392) started
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145503440896) started
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145520230400) started
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145537019904) started
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:47:54 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145321910272) started
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145338699776) started
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145355489280) started
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145372278784) started
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:48:52 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145543077888) started
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145559867392) started
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145576656896) started
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145593446400) started
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:49:05 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145461346304) started
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145478135808) started
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145494925312) started
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145511714816) started
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:49:44 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145578569728) started
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145595359232) started
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145612148736) started
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145628938240) started
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:49:58 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145563525120) started
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145580314624) started
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145597104128) started
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145613893632) started
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:50:56 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145452171264) started
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145485750272) started
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145502539776) started
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145468960768) started
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:51:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145431412736) started
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145448202240) started
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145464991744) started
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145481781248) started
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:57:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145430392832) started
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145447182336) started
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145463971840) started
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145480761344) started
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 14:59:08 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145319723008) started
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145336512512) started
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145353302016) started
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145370091520) started
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:00:45 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145522556928) started
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145539346432) started
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145556135936) started
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145572925440) started
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:03:34 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145528971264) started
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145545760768) started
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145562550272) started
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145579339776) started
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:04:47 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145492320256) started
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145509109760) started
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145525899264) started
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145542688768) started
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:05:07 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145357168640) started
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145373958144) started
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145390747648) started
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145407537152) started
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:05:59 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145361534976) started
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145378324480) started
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145395113984) started
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145411903488) started
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:07:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145437020160) started
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145453809664) started
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145470599168) started
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145487388672) started
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:08:22 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145491517440) started
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145508306944) started
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145525096448) started
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145541885952) started
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:08:36 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145380671488) started
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145397460992) started
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145414250496) started
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145431040000) started
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:08:53 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145578856448) started
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145595645952) started
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145612435456) started
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145629224960) started
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:09:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145536921600) started
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145553711104) started
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145570500608) started
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145587290112) started
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:09:50 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145568862208) started
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145585651712) started
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145602441216) started
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145619230720) started
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:10:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145398636544) started
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145415426048) started
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145432215552) started
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145449005056) started
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:11:28 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145386881024) started
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145403670528) started
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145420460032) started
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145437249536) started
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:12:16 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145345736704) started
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145362526208) started
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145379315712) started
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145396105216) started
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:18:55 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145515458560) started
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145532248064) started
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145549037568) started
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145565827072) started
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:24:37 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145367588864) started
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145384378368) started
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145401167872) started
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145417957376) started
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:25:09 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Database session initialized successfully
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:task-worker-0] - INFO - Worker thread task-worker-0 (ID: 123145485381632) started
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:task-worker-1] - INFO - Worker thread task-worker-1 (ID: 123145502171136) started
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:task-worker-2] - INFO - Worker thread task-worker-2 (ID: 123145518960640) started
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:task-worker-3] - INFO - Worker thread task-worker-3 (ID: 123145535750144) started
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Initialized 4 out of 4 requested worker threads
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - Total loaded tasks: 0
+2025-11-13 15:27:00 - quant_web.core.task_manager - [Thread:MainThread] - INFO - TaskManager initialized with max_workers=4, default_timeout=3600

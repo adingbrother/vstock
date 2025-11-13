@@ -1,0 +1,53 @@
+=== 回测示例开始 ===
+当前时间: 2025-11-12 10:24:30.624759
+创建交易引擎...
+初始化交易引擎，初始资金: 1000000.0
+创建数据馈送...
+设置回测时间范围: 2024-11-12 到 2025-11-12
+默认股票池: ['000001.SZ', '000002.SZ', '000858.SZ', '002415.SZ', '600036.SH', '600519.SH', '600900.SH', '601318.SH', '601398.SH', '601857.SH']
+使用的股票池: ['000001.SZ', '000002.SZ', '000858.SZ', '002415.SZ', '600036.SH']
+开始加载历史数据...
+数据加载结果: 成功
+加载的股票数量: 5
+交易日期数量: 262
+第一个交易日期: 2024-11-12 10:24:30.625528
+第一个日期的数据数量: 5
+  股票 000001.SZ 的数据键: ['ts_code', 'open', 'high', 'low', 'close', 'volume', 'amount']
+将数据馈送加载到交易引擎...
+
+可用策略列表:
+可用策略: ['moving_average', 'rsi_strategy', 'momentum']
+
+添加移动平均线策略
+移动平均线策略添加成功
+策略类型: <class 'quant_web.core.be.strategies.sample_strategies.MovingAverageStrategy'>
+策略属性: ['__abstractmethods__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', 'description', 'get_parameters', 'get_signals', 'initial_cash', 'initialize', 'name', 'on_data', 'on_order_cancelled', 'on_order_filled', 'parameters', 'portfolio', 'record', 'set_parameters', 'signals', 'strategy_id']
+
+使用交易引擎内置的回测方法...
+使用简化时间范围: 2025-09-13 到 2025-11-12
+
+回测结果分析:
+结果类型: <class 'dict'>
+结果键: ['daily_equity', 'performance_metrics', 'order_history']
+
+订单历史数量: 2
+  订单 1: Order(id=20250922_ma_strategy_001_1, buy 5364 shares of 000002.SZ @18.64, status=filled)
+  订单 2: Order(id=20251017_ma_strategy_001_1, buy 2165 shares of 600036.SH @41.56, status=filled)
+
+每日净值记录数量: 43
+  第一个记录: {'date': Timestamp('2025-09-15 10:24:30.625528'), 'equity': 1000000.0}
+  最后一个记录: {'date': Timestamp('2025-11-12 10:24:30.625528'), 'equity': 1007875.271292}
+  收益率: 0.79%
+
+绩效指标:
+  total_return: 0.007875271292000052
+  annual_return: 0.04704506029491973
+  annual_volatility: 0.02073368367299393
+  max_drawdown: -0.004839387927770919
+  sharpe_ratio: 0.8220951261603979
+  sortino_ratio: 1.4983247386911185
+  trades_count: 2
+  win_rate: 0.0
+  profit_factor: 0
+
+=== 回测示例完成 ===
