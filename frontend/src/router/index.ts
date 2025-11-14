@@ -33,6 +33,12 @@ const routes: Array<RouteRecordRaw> = [
     meta: { title: '系统设置' }
   },
   {
+    path: '/gitservice',
+    name: 'GitService',
+    component: () => import('../views/GitMcpView.vue'),
+    meta: { title: 'Git MCP服务演示' }
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     redirect: '/' // 404重定向到首页

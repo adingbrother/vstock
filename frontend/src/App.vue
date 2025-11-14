@@ -62,6 +62,10 @@
             <el-icon><Setting /></el-icon>
             <template #title>系统设置</template>
           </el-menu-item>
+          <el-menu-item index="/gitservice">
+            <el-icon><GitBranch /></el-icon>
+            <template #title>Git MCP服务</template>
+          </el-menu-item>
         </el-menu>
       </el-aside>
 
@@ -94,7 +98,8 @@ import {
   List, 
   Setting, 
   User, 
-  ArrowDown 
+  ArrowDown,
+  GitBranch
 } from '@element-plus/icons-vue'
 
 // 获取当前路由
